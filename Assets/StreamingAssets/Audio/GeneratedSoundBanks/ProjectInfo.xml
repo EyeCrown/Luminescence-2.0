@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Luminescence-2.0_WwiseProject" GUID="{74890881-B496-45FD-9825-8CF9CC9DFC70}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../../../../Luminescence-2.0_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{A19EE905-365D-4223-9351-ADB30A08F621}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Luminescence-2.0_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{4447C518-08C4-4688-A3A5-5EC28ADD553F}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Luminescence-2.0_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{7E9FB6E0-BC88-47CB-B3DC-8A01423434AD}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{0B699A4E-29EB-7560-82A1-C9E098D155C8}</FileHash>
+</ProjectInfo>
