@@ -18,6 +18,10 @@ public class PlayerController : MonoBehaviour
     // Components
     private Rigidbody rb;
 
+
+    [SerializeField] private GameObject leftWheel;
+    [SerializeField] private GameObject rightWheel;
+     
     // Variables
     [SerializeField] private float speedMovement;
 
@@ -36,7 +40,16 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        
+        //DoMovements();
+        Debug.Log(inputMovement);
+        leftWheel.transform.Rotate(Vector3.right, inputMovement.y * speedMovement);
+        rightWheel.transform.Rotate(Vector3.right, inputMovement.y * speedMovement);
+    }
+
+    void DoMovements()
+    {
+        leftWheel.transform.Rotate(Vector3.right, inputMovement.y);
+        rightWheel.transform.Rotate(Vector3.right, inputMovement.y);
     }
 
     /// <summary>
